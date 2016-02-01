@@ -1,0 +1,22 @@
+{
+  "name": "@firecodergithub/npmdevenv",
+  "version": "1.0.0",
+  "description": "tutorial project",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+ }, 
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firecodergithub/tutorialhowtonpm.git"
+  },
+  "keywords": [
+    "default",
+    "tutorial"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
+}
