@@ -1,11 +1,11 @@
 {
   "name": "@firecodergithub/npmdevenv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "tutorial project",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
- }, 
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/firecodergithub/tutorialhowtonpm.git"
