@@ -1,5 +1,11 @@
-var fs=require('fs');
-var fl =fs.readFileSync(process.argv[2]);
-var cnt=fl.toString().split('\n').length-1;
+function callb(error,data)
+{
 
-console.log(cnt);
+ var cnt=data.toString().split('\n').length-1; 
+	console.log(cnt);
+	return;
+}
+
+var fs=require('fs');
+var fl =fs.readFile(process.argv[2],callb);
+
