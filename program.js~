@@ -1,4 +1,3 @@
-//callback that is being called from readfile
 function callb(error,data)
 {
 
