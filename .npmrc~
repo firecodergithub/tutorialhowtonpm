@@ -1,0 +1,3 @@
+//registry = http://localhost:15443/
+registry= https://registry.npmjs.org/
+userconfig = /home/ubuntu/.config/how-to-npm/npmrc
