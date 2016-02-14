@@ -8,7 +8,6 @@ var CallbackClass=function(i)
 {
 	this.i=i;//what callback number this is
 	this.response="";
-//	this.objCallb=[];
 	this.doCallback=function(response)
 	{
 
@@ -31,9 +30,6 @@ var CallbackClass=function(i)
 }
 //declare the objects and run the callback
 var objCallb=[new CallbackClass(0),new CallbackClass(1),new CallbackClass(2)];
-//objCallb[0].objCallb=objCallb;
-//objCallb[1].objCallb=objCallb;
-//objCallb[2].objCallb=objCallb;
 for (var i=2;i<5;i++)
 {
 	
