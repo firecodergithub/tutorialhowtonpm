@@ -15,8 +15,6 @@ var CallbackClass=function(i)
 						{
 							if (er) return console.error("Eroare:"+er);
 							objCallb[i].response=dat.toString();
-//							console.log(i);
-//							console.log(objCallb);
 							if (objCallb[0].response!="" && objCallb[1].response!="" && objCallb[2].response!="")
 								{
 								console.log(objCallb[0].response);
