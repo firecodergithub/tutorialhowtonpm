@@ -7,7 +7,6 @@ if (!process.argv[2] || !process.argv[3] || !process.argv[4]) return;
 var CallbackClass=function(i)
 {
 	this.i=i;//what callback number this is
-	this.response="";
 	this.doCallback=function(response)
 	{
 
@@ -32,6 +31,5 @@ var CallbackClass=function(i)
 var objCallb=[new CallbackClass(0),new CallbackClass(1),new CallbackClass(2)];
 for (var i=2;i<5;i++)
 {
-	
 	http.get(process.argv[i],objCallb[i-2].doCallback);
 }
